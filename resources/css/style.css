@@ -8,6 +8,10 @@ body {
   margin: 0;
 }
 
+span {
+  background-color: black;
+}
+
 /*header*/
 
 header {
@@ -39,19 +43,53 @@ header img {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
   height: 25rem;
   padding-top: 65px;
-  margin: 0;
 }
 
 #new_arrival span,h1 {
   background-color: black;
+  width: 20rem;
+  padding-left: 3rem;
 }
 
 #new_arrival h1 {
   margin: 0;
-  padding: 0;
 }
 
 #new_arrival span {
-  margin: 0;
-  padding: 0;
+  padding-bottom: 0.25rem;
+  padding-top: 2rem;
+  margin-top: 5rem;
+}
+
+/*nav bar*/
+
+nav {
+  display: flex;
+  background-color: firebrick;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+nav span {
+  background-color: firebrick;
+  justify-content: space-around;
+  padding-left: 5.7rem;
+  font-weight: bold;
+}
+
+/*featured items*/
+
+#featured_items {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.item {
+  border: 4px solid black
+  width: 30%;
+  display: inline;
+}
+
+.item img {
+  height: 9rem;
 }
